@@ -25,7 +25,7 @@ function Login() {
       dispatch(loginUser(values))
     }
   })
-  
+  console.log("Login Commit")
   // useEffect(() => {
   //   console.log("isSuccess:", isSuccess, "isError:", isError, "message:", message);
   //   if (isSuccess) {
